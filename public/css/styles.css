@@ -1,0 +1,161 @@
+body {
+    background-color: #51d0de;
+    color: #bf4aa8;
+}
+header, main, nav, footer {
+    text-align:center;
+    
+}
+h1 {
+    font-family: 'Alegreya', Sans SC;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+nav a{
+    padding:15px;
+    padding-bottom:4px;
+    font-size:1.8em;
+    text-decoration: none;
+    color: white;
+    
+}
+nav a:hover {
+    border-bottom:2px white solid;
+    font-size: 2em;
+    transition: .9s;
+    color: #0677a1;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+#welcomeText {
+    font-size: 25px;
+}
+#content {
+    text-align: center;
+  
+    justify-content: center;
+    font-size: 25px;
+}
+
+/* *****about page***** */
+
+/* table style */
+#table {
+    display: flex;
+    justify-content: center;
+}
+table{
+  
+    width: auto;
+    margin-right: auto;
+    margin-left: 0px;
+    margin-top: auto;
+    /*margin: 0px auto;*/
+}
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong {
+    color: white;
+}
+#table-header {
+    background-color: #895061;
+}
+.table-row {
+    background-color: #2d4159;
+}
+
+#tabelsuper {
+    
+     width:300px;
+    height:100px;
+    border:1px solid red;
+    margin-left:100px;
+    float:left;
+    
+}
+#unsupTable {
+      width:400px;
+    height:100px;
+    
+    margin-left:700px;
+    margin-top: -100px;
+    float: center;
+}
+#unsupCap {
+    font-size: 25px;
+}
+#supCap {
+    font-size: 25px;
+}
+/*images*/
+
+#supervisedImg {
+  float: right;
+  margin-right: 100px;
+   position: relative;
+}
+
+#unsupervisedImg {
+     width:100px;
+    height:100px;
+    
+    margin-left:100px;
+    float:center;
+
+}
+
+
+#onlineImg {
+     width: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+
+#batchImg {
+     width: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-left: 200px;
+    
+}
+
+/*Use Id to identify a single element and style that.
+Use Class to style an entire classification (multiple) of elements. */
+ul {
+   width: 500px;
+   margin: 0 auto;
+   text-align: left;
+   font-size: 20px;
+}
+.hobby {
+    color: #0677a1;
+}
+iframe {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #0677a1;
+  padding: 3px;
+  display: block;
+}
+
+footer {
+    
+      clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 250px;
+    color: black;
+}
+   /* margin-top: relative;*/
+   /* position:absolute;*/
+   /*bottom:0;*/
+   /*width:100%;*/
+  /* height:60px;   /* Height of the footer 
+    color: black;
+}
